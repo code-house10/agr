@@ -311,7 +311,7 @@ body
 }
 #Layer1 .modal-content
 {
-   visibility: visible;
+   visibility: hidden;
    margin: 0;
 }
 #Layer1 .modal-dialog
@@ -380,5 +380,14 @@ body
    display: inline;
    margin: 0;
    padding: 0;
+}
+#Timer1
+{
+   left: 0px;
+   top: 232px;
+   width: 37px;
+   height: 22px;
+   visibility: visible;
+   display: inline;
 }
 }
