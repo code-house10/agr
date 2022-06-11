@@ -279,7 +279,7 @@ input:focus, textarea:focus, select:focus
 {
    position: absolute;
    left: 175px;
-   top: 46px;
+   top: 49px;
    width: 172px;
    height: 154px;
    z-index: 2;
@@ -372,10 +372,10 @@ body
 }
 #wb_Image1
 {
-   left: 88px;
-   top: 32px;
-   width: 126px;
-   height: 108px;
+   left: 63px;
+   top: -7px;
+   width: 172px;
+   height: 154px;
    visibility: visible;
    display: inline;
    margin: 0;
