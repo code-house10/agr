@@ -1,6 +1,6 @@
 div#container
 {
-   width: 970px;
+   width: 480px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -40,15 +40,12 @@ input:focus, textarea:focus, select:focus
 }
 #Layer1 .modal-content
 {
-   background-color: transparent;
-   background-image: url('../images/Flat IV-07.jpg');
-   background-repeat: no-repeat;
-   background-position: left center;
-   background-attachment: fixed;
-   background-size: cover;
-   border: 1px solid #CCCCCC;
+   background-color: #000000;
+   background-image: none;
+   border: 1px solid #FFFFFF;
    border-radius: 6px;
    box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   opacity: 0.80;
    margin: 0;
    overflow: visible;
 }
@@ -103,7 +100,7 @@ input:focus, textarea:focus, select:focus
 #Layer1 .modal-dialog
 {
    position: relative;
-   width: 722px;
+   width: 470px;
    margin-left: auto;
    margin-right: auto;
 }
@@ -118,17 +115,17 @@ input:focus, textarea:focus, select:focus
 {
    min-height: 16px;
    padding: 15px 15px 15px 15px;
-   border-bottom: 1px solid #CCCCCC;
+   border-bottom: 1px solid #FFFFFF;
 }
 #Layer1 .modal-footer
 {
    padding: 15px 15px 15px 15px;
-   border-top: 1px solid #CCCCCC;
+   border-top: 1px solid #FFFFFF;
 }
 #Layer1 .modal-body
 {
    position: relative;
-   width: 722px;
+   width: 470px;
    height: 339px;
 }
 #Layer1 .close
@@ -137,7 +134,7 @@ input:focus, textarea:focus, select:focus
    font-size: 21px;
    font-weight: 700;
    line-height: 1;
-   color: #CCCCCC;
+   color: #FFFFFF;
    text-shadow: 0px 1px 0px #fff;
    opacity: 0.5;
    -webkit-appearance: none;
@@ -178,7 +175,7 @@ input:focus, textarea:focus, select:focus
 }
 #Layer1 .modal-title
 {
-   color: #CCCCCC;
+   color: #FFFFFF;
    font-size: 16px;
    font-weight: 500;
    margin: 0;
@@ -229,7 +226,7 @@ input:focus, textarea:focus, select:focus
 {
    width: 325px;
    height: 65px;
-   background-color: #2E8B57;
+   background-color: #FFA500;
    background-image: none;
    border: 0px #0963AD solid;
    border-radius: 10px;
@@ -269,7 +266,7 @@ input:focus, textarea:focus, select:focus
 #wb_Shape1
 {
    position: absolute;
-   left: 99px;
+   left: 59px;
    top: 153px;
    width: 325px;
    height: 65px;
@@ -278,8 +275,8 @@ input:focus, textarea:focus, select:focus
 #wb_Image1
 {
    position: absolute;
-   left: 175px;
-   top: 46px;
+   left: 142px;
+   top: 49px;
    width: 172px;
    height: 154px;
    z-index: 2;
@@ -287,10 +284,11 @@ input:focus, textarea:focus, select:focus
 #wb_IconFont1
 {
    position: absolute;
-   left: 444px;
+   left: 404px;
    top: 7px;
    width: 27px;
    height: 27px;
+   visibility: hidden;
    text-align: center;
    z-index: 0;
 }
@@ -298,7 +296,7 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-@media only screen and (max-width: 969px)
+@media only screen and (max-width: 479px)
 {
 div#container
 {
@@ -337,7 +335,6 @@ body
    display: inline;
    margin: 0;
    padding: 0;
-   color: #000000;
 }
 #IconFont1
 {
@@ -349,11 +346,6 @@ body
    line-height: 34px;
    font-size: 33px;
    width: 32px;
-   color: #000000;
-}
-#IconFont1:hover i
-{
-   color: #000000;
 }
 #wb_Shape1
 {
@@ -372,8 +364,8 @@ body
 }
 #wb_Image1
 {
-   left: 88px;
-   top: 32px;
+   left: 100px;
+   top: 28px;
    width: 126px;
    height: 108px;
    visibility: visible;
@@ -384,7 +376,7 @@ body
 #Timer1
 {
    left: 0px;
-   top: 232px;
+   top: 186px;
    width: 37px;
    height: 22px;
    visibility: visible;
