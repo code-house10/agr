@@ -28,7 +28,6 @@
          var forceReflow = element.offsetWidth;
          $('#Layer1 .modal-dialog').addClass('animate-hide');
       });
-      $("#Layer1").modal('show');
    });
 </script>
         
@@ -85,8 +84,23 @@
             </div>
          </div>
       </section>
+      <script>      
+      var wb_Timer1;
+      function TimerStartTimer1()
+      {
+         wb_Timer1 = setTimeout(function()
+         {
+            var event = null;
+            $('#Layer1').modal('show');
+         }, 3500);
+      }
+      function TimerStopTimer1()
+      {
+         clearTimeout(wb_Timer1);
+      }
+      TimerStartTimer1();
+      </script>
    </div>
-        
         
         
         
