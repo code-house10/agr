@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
     <head>
         
         
-        
-        
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
 <link href="css/Untitled1.css" rel="stylesheet">
 <link href="css/index.css" rel="stylesheet">
@@ -28,9 +26,9 @@
          var forceReflow = element.offsetWidth;
          $('#Layer1 .modal-dialog').addClass('animate-hide');
       });
+      $("#Layer1").modal('show');
    });
 </script>
-        
         
         
         
@@ -67,13 +65,12 @@
         
         
         
-        
-        
-     <div id="container">
+ <div id="container">
       <section id="Layer1" class="modal fade" role="dialog">
          <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                   <div id="wb_IconFont1">
                      <a href="#" onclick="$('#Layer1').modal('hide');return false;"><div id="IconFont1"><i class="fa fa-times"></i></div></a></div>
                   <div id="wb_Shape1">
@@ -92,7 +89,7 @@
          {
             var event = null;
             $('#Layer1').modal('show');
-         }, 6000);
+         }, 500);
       }
       function TimerStopTimer1()
       {
@@ -101,9 +98,6 @@
       TimerStartTimer1();
       </script>
    </div>
-        
-        
-        
         
         
         
@@ -273,24 +267,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="single-slider">
-                    <div class="image-layer bg_cover" style="background-image: url(assets/images/hero/hero_one-slider-2.jpg);"></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10">
-                                <div class="hero-content text-center">
-                                    <span class="tag-line" data-animation="fadeInDown" data-delay=".4s">Organic Farms</span>
-                                    <h1 data-animation="fadeInUp" data-delay=".5s">Welcome to 
-                                        Organic Farms</h1>
-                                    <div class="hero-button" data-animation="fadeInDown" data-delay=".6s">
-                                        <a href="about.html" class="main-btn btn-yellow">Learn About Us</a>
-                                        <a href="portfolio-grid.html" class="main-btn bordered-btn bordered-white">Latest Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+           
                 <div class="single-slider">
                     <div class="image-layer bg_cover" style="background-image: url(assets/images/hero/hero_one-slider-3.jpg);"></div>
                     <div class="container">
@@ -309,24 +286,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="single-slider">
-                    <div class="image-layer bg_cover" style="background-image: url(assets/images/hero/hero_one-slider-4.jpg);"></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10">
-                                <div class="hero-content text-center">
-                                    <span class="tag-line" data-animation="fadeInDown" data-delay=".4s">Organic Farms</span>
-                                    <h1 data-animation="fadeInUp" data-delay=".5s">Welcome to 
-                                        Organic Farms</h1>
-                                    <div class="hero-button" data-animation="fadeInDown" data-delay=".6s">
-                                        <a href="about.html" class="main-btn btn-yellow">Learn About Us</a>
-                                        <a href="portfolio-grid.html" class="main-btn bordered-btn bordered-white">Latest Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
             </div>
         </section>
         <!--====== End Hero Section ======-->
@@ -443,8 +403,8 @@
         <!--====== End About Section ======-->
         <!--====== Start Service Section ======-->
         <section class="service-one dark-black-bg pt-130 pb-125 p-r z-1">
-            <div class="shape shape-one"><span><img src="assets/images/shape/tree1.png" alt=""></span></div>
-            <div class="shape shape-two"><span><img src="assets/images/shape/tree2.png" alt=""></span></div>
+            <div class="shape shape-one"><span><img src="assets/images/hero/hero_one-slider-1.jpg" alt=""></span></div>
+            <div class="shape shape-two"><span><img src="assets/images/hero/hero_one-slider-2.jpg" alt=""></span></div>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-10">
@@ -550,7 +510,7 @@
                 <div class="projects-slider-one">
                     <div class="project-item wow fadeInUp">
                         <div class="img-holder">
-                            <img src="assets/images/portfolio/img-1.jpg" alt="Gallery Image">
+                            <img src="assets/images/hero/hero_one-slider-2.jpg" alt="image" width="370px;" height="463px; ">
                             <div class="hover-portfolio">
                                 <div class="hover-content">
                                     <h3 class="title"><a href="portfolio-details.html">Golder Wheat</a></h3>
@@ -561,7 +521,7 @@
                     </div>
                     <div class="project-item wow fadeInDown">
                         <div class="img-holder">
-                            <img src="assets/images/portfolio/img-2.jpg" alt="Gallery Image">
+                            <img src="assets/images/hero/hero_one-slider-1.jpg" alt="image" width="250px;" height="200px; ">
                             <div class="hover-portfolio">
                                 <div class="hover-content">
                                     <h3 class="title"><a href="portfolio-details.html">Golder Wheat</a></h3>
@@ -583,7 +543,7 @@
                     </div>
                     <div class="project-item wow fadeInDown">
                         <div class="img-holder">
-                            <img src="assets/images/portfolio/img-2.jpg" alt="Gallery Image">
+                            <img src="assets/images/hero/hero_one-slider-3.jpg" alt="image" width="250px;" height="200px; ">
                             <div class="hover-portfolio">
                                 <div class="hover-content">
                                     <h3 class="title"><a href="portfolio-details.html">Golder Wheat</a></h3>
@@ -737,7 +697,7 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="offer-one_image-box bg_cover mb-50 wow fadeInRight" style="background-image: url(assets/images/bg/offer-bg-1.jpg);">
+                        <div class="offer-one_image-box bg_cover mb-50 wow fadeInRight" style="background-image: url(assets/images/hero/hero_one-slider-2.jpg);">
                             <div class="content-box">
                                 <h2>35 Years Of 
                                     Experience in 
@@ -803,7 +763,7 @@
                 <div class="testimonial-slider-one">
                     <div class="testimonial-item text-center wow fadeInDown">
                         <div class="author-thumb">
-                            <img src="assets/images/testimonial/img-1.jpg" alt="author Image">
+                            <img src="assets/images/hero/hero_one-slider-3.jpg" alt="author Image">
                         </div>
                         <div class="testimonial-content">
                             <p>“Sit amet consectetu escing elit sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Quis ipsum suspendisse ultrices gravic darisus comoe” </p>
@@ -816,7 +776,7 @@
                     </div>
                     <div class="testimonial-item text-center wow fadeInUp">
                         <div class="author-thumb">
-                            <img src="assets/images/testimonial/img-2.jpg" alt="author Image">
+                            <img src="assets/images/hero/hero_one-slider-2.jpg" alt="author Image">
                         </div>
                         <div class="testimonial-content">
                             <p>“Sit amet consectetu escing elit sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Quis ipsum suspendisse ultrices gravic darisus comoe” </p>
@@ -829,7 +789,7 @@
                     </div>
                     <div class="testimonial-item text-center wow fadeInDown">
                         <div class="author-thumb">
-                            <img src="assets/images/testimonial/img-3.jpg" alt="author Image">
+                            <img src="assets/images/hero/hero_one-slider-2.jpg" alt="author Image">
                         </div>
                         <div class="testimonial-content">
                             <p>“Sit amet consectetu escing elit sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Quis ipsum suspendisse ultrices gravic darisus comoe” </p>
@@ -842,7 +802,7 @@
                     </div>
                     <div class="testimonial-item text-center wow fadeInUp">
                         <div class="author-thumb">
-                            <img src="assets/images/testimonial/img-4.jpg" alt="author Image">
+                            <img src="assets/images/hero/hero_one-slider-2.jpg" alt="author Image">
                         </div>
                         <div class="testimonial-content">
                             <p>“Sit amet consectetu escing elit sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Quis ipsum suspendisse ultrices gravic darisus comoe” </p>
@@ -855,7 +815,7 @@
                     </div>
                     <div class="testimonial-item text-center wow fadeInDown">
                         <div class="author-thumb">
-                            <img src="assets/images/testimonial/img-2.jpg" alt="author Image">
+                            <img src="assets/images/hero/hero_one-slider-2.jpg" alt="author Image">
                         </div>
                         <div class="testimonial-content">
                             <p>“Sit amet consectetu escing elit sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Quis ipsum suspendisse ultrices gravic darisus comoe” </p>
@@ -902,7 +862,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="contact-one_information-box bg_cover wow fadeInRight" style="background-image: url(assets/images/bg/contact-bg-1.jpg);">
+                        <div class="contact-one_information-box bg_cover wow fadeInRight" style="background-image: url(assets/images/hero/hero_one-slider-2.jpg);">
                             <div class="information-box">
                                 <h3>Contact Us</h3>
                                 <p>Sit volupta accusantium doloreues laudatiuec totam rem aperiam eaque abillo inventore verit atiset</p>
@@ -977,7 +937,7 @@
                         </div>
                         <div class="blog-post-item-one mb-30 wow fadeInRight">
                             <div class="post-thumbnail">
-                                <img src="assets/images/blog/img-2.jpg" alt="Post Image">
+                                <img src="assets/images/hero/hero_one-slider-3.jpg" alt="Post Image">
                             </div>
                             <div class="entry-content">
                                 <a href="#" class="cat-btn">Organic Foods</a>
@@ -1146,14 +1106,14 @@
                                 <h4 class="widget-title">Recent News</h4>
                                 <ul class="post-widget-wrap">
                                     <li class="post-item">
-                                        <img src="assets/images/widget/news-1.jpg" alt="Post Image">
+                                        <img src="assets/images/hero/hero_one-slider-2.jpg" alt="Post Image">
                                         <div class="post-title-date">
                                             <h3 class="title"><a href="blog-details.html">Designing Better Links Websites & Emails</a></h3>
                                             <span class="posted-on"><i class="fas fa-calendar-alt"></i><a href="#">25 March 2022</a></span>
                                         </div>
                                     </li>
                                     <li class="post-item">
-                                        <img src="assets/images/widget/news-2.jpg" alt="Post Image">
+                                        <img src="assets/images/hero/hero_one-slider-1.jpg" alt="Post Image">
                                         <div class="post-title-date">
                                             <h3 class="title"><a href="blog-details.html">Advent Calendars For Web Designers</a></h3>
                                             <span class="posted-on"><i class="fas fa-calendar-alt"></i><a href="#">25 March 2022</a></span>
